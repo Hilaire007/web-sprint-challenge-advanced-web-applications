@@ -12,7 +12,7 @@ const loginUrl = "http://localhost:9000/api/login";
 
 export default function App() {
   // ✨ MVP can be achieved with these states
-  const [message, setMessage] = useState("");
+  const [message, setMessage] =  useState("");
   const [articles, setArticles] = useState([]);
   const [currentArticleId, setCurrentArticleId] = useState();
   const [spinnerOn, setSpinnerOn] = useState(false);
